@@ -67,13 +67,13 @@ I build end-to-end AI systems that ship to production — LangGraph agent pipeli
 
 <!-- Served by Sigil — my own stats service. Repo: github.com/Mu-iq/sigil -->
 <p align="center">
-  <img width="49%" src="https://sigil.muzamiltariq77s.workers.dev/api/stats?username=Mu-iq&theme=github_dark&card_width=450" alt="GitHub stats" />
-  <img width="49%" src="https://sigil.muzamiltariq77s.workers.dev/api/languages?username=Mu-iq&layout=compact&theme=github_dark&card_width=450&hide=jupyter%20notebook" alt="Top languages" />
+  <img width="420" src="https://sigil.muzamiltariq77s.workers.dev/api/stats?username=Mu-iq&theme=github_dark&accent=79C0FF&card_width=420" alt="GitHub stats" />
+  <img width="420" src="https://sigil.muzamiltariq77s.workers.dev/api/languages?username=Mu-iq&layout=compact&theme=github_dark&accent=79C0FF&card_width=420&hide=jupyter%20notebook&lang_colors=mono" alt="Top languages" />
 </p>
 
 <p align="center">
-  <img width="49%" src="https://sigil.muzamiltariq77s.workers.dev/api/streak?username=Mu-iq&theme=github_dark&card_width=450" alt="GitHub streak" />
-  <img width="49%" src="https://sigil.muzamiltariq77s.workers.dev/api/activity?username=Mu-iq&theme=github_dark&card_width=450" alt="Contribution activity" />
+  <img width="420" src="https://sigil.muzamiltariq77s.workers.dev/api/streak?username=Mu-iq&theme=github_dark&accent=79C0FF&card_width=420" alt="GitHub streak" />
+  <img width="420" src="https://sigil.muzamiltariq77s.workers.dev/api/activity?username=Mu-iq&theme=github_dark&accent=79C0FF&card_width=420" alt="Contribution activity" />
 </p>
 
 <sub>📊 Cards rendered by <a href="https://github.com/Mu-iq/sigil">Sigil</a> — a GitHub stats service I built and self-host.</sub>
