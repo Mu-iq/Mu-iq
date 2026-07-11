@@ -1,10 +1,9 @@
 <!--
   GitHub profile README for github.com/Mu-iq
   ============================================================
-  ONE THING TO DO before the stats cards work reliably:
-  the two GitHub-stats cards below point to YOUR-INSTANCE.vercel.app.
-  Deploy your own free instance (3 min) and swap that in — see the
-  notes I sent alongside this file. Everything else works as-is.
+  All stat cards are served by Sigil, the owner's own service:
+  https://sigil.muzamiltariq77s.workers.dev  (repo: github.com/Mu-iq/sigil)
+  To restyle every card at once, change the &theme= value on each URL.
 -->
 
 <!-- ---------- TYPING HEADER ---------- -->
@@ -48,6 +47,7 @@ I build end-to-end AI systems that ship to production — LangGraph agent pipeli
 
 | Project | What It Does | Stack | Impact |
 |:---|:---|:---|:---|
+| **Sigil** | Self-hosted GitHub stats service rendering the cards on this profile — edge-deployed, reliable, extensible | TypeScript · Cloudflare Workers · Hono · Satori · D1 | Powers every card below |
 | **Electrorad LIMS** | B2B lead intelligence platform with LangGraph outreach agents and AI lead scoring | Next.js · FastAPI · LangGraph · GCP · n8n | 65% less qualification time · 40% higher reply rates |
 | **Booqx** | Conversational AI booking SaaS across WhatsApp, Instagram & Facebook | Next.js · Node.js · LangChain · GCP · Supabase | 200+ bookings/month |
 | **Dailatics** | AI call analytics — Whisper ASR + BERT sentiment + speaker diarisation | Next.js · FastAPI · Whisper · BERT · GCP | 20% better first-call resolution |
@@ -65,23 +65,23 @@ I build end-to-end AI systems that ship to production — LangGraph agent pipeli
 
 ### GitHub Stats
 
-<!--
-  These two cards use YOUR self-hosted instance to avoid the rate-limit
-  broken-image problem on the shared public server. Replace
-  YOUR-INSTANCE.vercel.app with your deployed instance's domain.
--->
-<img height="165" src="https://YOUR-INSTANCE.vercel.app/api?username=Mu-iq&show_icons=true&count_private=true&include_all_commits=true&theme=github_dark&hide_border=true&title_color=79c0ff&icon_color=a5d6ff&text_color=c9d1d9&bg_color=0d1117" alt="GitHub stats" />
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com?user=Mu-iq&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=30363d&ring=79c0ff&fire=79c0ff&currStreakLabel=79c0ff&sideLabels=c9d1d9&dates=8b949e" alt="GitHub streak" />
+<!-- Served by Sigil — my own stats service. Repo: github.com/Mu-iq/sigil -->
+<p align="center">
+  <img width="49%" src="https://sigil.muzamiltariq77s.workers.dev/api/stats?username=Mu-iq&theme=github_dark&card_width=450" alt="GitHub stats" />
+  <img width="49%" src="https://sigil.muzamiltariq77s.workers.dev/api/languages?username=Mu-iq&layout=compact&theme=github_dark&card_width=450&hide=jupyter%20notebook" alt="Top languages" />
+</p>
 
-<img height="165" src="https://YOUR-INSTANCE.vercel.app/api/top-langs/?username=Mu-iq&layout=compact&langs_count=8&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=79c0ff&text_color=c9d1d9&hide=jupyter%20notebook" alt="Top languages" />
+<p align="center">
+  <img width="49%" src="https://sigil.muzamiltariq77s.workers.dev/api/streak?username=Mu-iq&theme=github_dark&card_width=450" alt="GitHub streak" />
+  <img width="49%" src="https://sigil.muzamiltariq77s.workers.dev/api/activity?username=Mu-iq&theme=github_dark&card_width=450" alt="Contribution activity" />
+</p>
 
-![Contribution graph](https://github-readme-activity-graph.vercel.app/graph?username=Mu-iq&theme=github-compact&hide_border=true&bg_color=0d1117&color=79c0ff&line=79c0ff&point=c9d1d9&area=true&area_color=1f6feb)
+<sub>📊 Cards rendered by <a href="https://github.com/Mu-iq/sigil">Sigil</a> — a GitHub stats service I built and self-host.</sub>
 
 <!-- ---------- SNAKE ANIMATION ----------
-  Powered by the workflow at .github/workflows/snake.yml.
-  It writes snake.svg to the `output` branch. The image below
-  reads from that branch and will 404 until the workflow runs once
-  (run it manually from the Actions tab the first time). -->
+  Powered by .github/workflows/snake.yml (writes snake.svg to the `output`
+  branch). Shows as broken until the workflow runs once — trigger it manually
+  from the Actions tab the first time. -->
 ![Snake animation](https://raw.githubusercontent.com/Mu-iq/Mu-iq/output/snake.svg)
 
 ---
@@ -121,6 +121,7 @@ I build end-to-end AI systems that ship to production — LangGraph agent pipeli
 ![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 
 **Automation**  
